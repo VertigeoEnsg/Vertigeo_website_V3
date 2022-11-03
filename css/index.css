@@ -1,0 +1,11 @@
+.bg-image {
+  background-image: url('../img/utilisables/ENSG_hall.jpg');
+  height:85vh;
+}
+.mask{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#logo_tout_blanc{
+  height:8vh;padding: 2%;
+}

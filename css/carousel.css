@@ -1,0 +1,90 @@
+.carousel-control-next, .carousel-control-prev {
+    position: relative;
+    /* top: 0;
+    bottom: 0; */
+    background-color: blue;
+    height: 150px;
+    /* padding: 10px; */
+}
+
+
+.card-img{
+    width: 250px;
+    height: 200px;
+}
+
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+
+}
+
+#ContainercarouselCompetence {
+    width: 90%;
+    /* margin: 0px 10px 0px 10px; */
+}
+#MainContainercarouselCompetence{
+    background-color: rgba(105, 99, 92, 0.637);
+    display: flex;
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    border-style: solid;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.carousel-control-next{
+    background-color: blue;
+}
+
+
+#containerNextPrevBtn{
+    height: 50px;
+    width:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.owl-dots{
+/* background-color: rgb(202, 63, 7); */
+display: flex;
+justify-content: center;
+
+/* margin: 5px;
+border-style: solid;
+border-width: 2px;
+border-radius: 5px; */
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: rgb(168, 79, 44);
+    width: 20px;
+    height: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active{
+        background-color: rgb(63, 44, 168);
+        width: 20px;
+        height: 10px;
+        margin: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        }
+
+.btn-moreInfo-competence{
+    background-color: rgba(151, 191, 17, 0.85);
+    margin: 30px 30px 0 30px;
+    height: 60px;
+    border-radius: 0px;
+}
+
+/* .btn-moreInfo-competence:hover{
+    background-color: rgba(9, 207, 19, 0.85);
+} */
