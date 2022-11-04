@@ -34,53 +34,61 @@
         <script src="./js/OwlCarousel2-2.3.4//dist/owl.carousel.min.js"></script>
 
         <link rel="stylesheet" href="./css/carousel.css">
+        <link rel="stylesheet" href="./css/commonStyle.css">
         
     </head>
     <body>
         <div id="header"></div>
 
-            <div id="MainContainercarouselCompetence">
-                <button class="carousel-control-prev customPrevBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <h1>TITLE1</h1>
+            <h2>SUB TITLE1</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="MainContainercarouselCompetence">
+                <button class="customPrevBtn" type="button">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <!-- <span class="visually-hidden">Previous</span> -->
                 </button>
-                <div id="ContainercarouselCompetence">
-                    <div class="owl-carousel owl-theme" id = "carouselCompetence">
+                <div class="ContainercarouselCompetence">
+                    <div class="owl-carousel owl-theme">
                         <div class="card">
                             <div class="card-img">
-                                <img src="./img/utilisables/boussole_fond_noir.png" class="card-img-top" alt="...">
+                                <img src="./img/competence/bd.jpg" class="card-img-top" alt="...">
                             </div>
-                            <button type="button" class="btn btn-primary btn-moreInfo-competence">Primary</button>
+                            <button type="button" class="btn btn-primary btn-moreInfo-competence"  data-bs-toggle="modal" data-bs-target="#exampleModal">BD</button>
                         </div>
                     
-                        <div class="card" >
+                        <div class="card">
                             <div class="card-img">
-                                <img src="./img/utilisables/ENSG3.JPG" class="card-img-top" alt="...">
+                                <img src="./img/competence/sig.jpg" class="card-img-top" alt="...">
                             </div>
-                            <button type="button" class="btn btn-primary btn-moreInfo-competence">Primary</button>
+                            <button type="button" class="btn btn-primary btn-moreInfo-competence"  data-bs-toggle="modal" data-bs-target="#exampleModal">SIG</button>
                         </div>
 
                         <div class="card">
                             <div class="card-img">
-                                <img src="./img/utilisables/boussole_fond_noir.png" class="card-img-top" alt="...">
+                                <img src="./img/competence/bd.jpg" class="card-img-top" alt="...">
                             </div>
-                            <button type="button" class="btn btn-primary btn-moreInfo-competence">Primary</button>
+                            <button type="button" class="btn btn-primary btn-moreInfo-competence"  data-bs-toggle="modal" data-bs-target="#exampleModal">TELEDEC</button>
                         </div>
                     
-                        <div class="card" >
+                        <div class="card">
                             <div class="card-img">
-                                <img src="./img/utilisables/ENSG3.JPG" class="card-img-top" alt="...">
+                                <img src="./img/competence/bd.jpg" class="card-img-top" alt="...">
                             </div>
-                            <button type="button" class="btn btn-primary btn-moreInfo-competence">Primary</button>
+                            <button type="button" class="btn btn-primary btn-moreInfo-competence"  data-bs-toggle="modal" data-bs-target="#exampleModal">PROGRAMATION</button>
                         </div>
                     </div>
                 </div>
 
-                <button class="carousel-control-next customNextBtn" type="button" data-bs-target="#carouselExampleIndicators">
+                <button class="customNextBtn">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+           
 
         <div id="footer"></div>
 
@@ -94,5 +102,26 @@
     $("#footer").load("./html/footer.html");
     });
     </script> 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Scrollable modal -->
+        <div class="modal-dialog modal-dialog-scrollable">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     </body>
 </html>
