@@ -1,5 +1,6 @@
 .bg-image {
   background-image: url('../img/utilisables/ENSG_hall.jpg');
+  background-size:inherit;
   height:85vh;
 }
 .mask{
@@ -8,4 +9,12 @@
 
 #logo_tout_blanc{
   height:8vh;padding: 2%;
+}
+
+#defilementAccueil{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 200px;
 }

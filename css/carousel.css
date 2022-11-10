@@ -46,6 +46,23 @@
     object-fit: contain;
 }
 
+.MainContainercarouselHeader {
+    background-color: rgba(255, 255, 255, 0.64);
+    display: flex;
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    padding-block-start: 3px;
+    object-fit: contain;
+
+  }
+
+
 
 .owl-dots{
 /* background-color: rgb(202, 63, 7); */
