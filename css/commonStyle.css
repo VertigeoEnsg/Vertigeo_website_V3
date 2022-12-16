@@ -1,0 +1,5 @@
+h1, h2, p{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(151, 191, 17, 0.85);
+}
