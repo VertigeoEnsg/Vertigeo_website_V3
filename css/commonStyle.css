@@ -1,5 +1,19 @@
 h1, h2, p{
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: rgba(151, 191, 17, 0.85);
+    /* text-decoration: underline;
+    text-decoration-color: rgba(151, 191, 17, 0.85); */
 }
+
+#bodyContainer
+{
+    position: relative;
+    padding: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+
+    height: 80%;
+}
+
