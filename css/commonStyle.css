@@ -1,28 +1,19 @@
 h1, h2, p{
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: rgba(151, 191, 17, 0.85);
-}
-
-body
-{
-    display: grid;
-    grid-template-rows: 10% 80% 10%;
-}
-
-#header
-{
-    grid-row: 1;
-}
-
-#footer
-{
-    grid-row: 3;
-    height: auto;
+    /* text-decoration: underline;
+    text-decoration-color: rgba(151, 191, 17, 0.85); */
 }
 
 #bodyContainer
 {
-    grid-row: 2;
-    object-fit: contain;
+    position: relative;
+    padding: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+
+    height: 80%;
 }
+
