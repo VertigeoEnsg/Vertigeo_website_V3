@@ -3,3 +3,26 @@ h1, h2, p{
     text-decoration: underline;
     text-decoration-color: rgba(151, 191, 17, 0.85);
 }
+
+body
+{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+#header
+{
+    grid-row: 1;
+}
+
+#footer
+{
+    grid-row: 3;
+    height: auto;
+}
+
+#bodyContainer
+{
+    grid-row: 2;
+    object-fit: contain;
+}
